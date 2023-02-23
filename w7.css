@@ -1,0 +1,19 @@
+body{
+    background-color: lightsalmon;
+    color:lime;
+    font-size: 16pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input{
+    background-color: bisque; 
+
+}
+
+button{
+    background-color: cornflowerblue;
+}
+
+.customClass{
+    background-color:purple;
+}

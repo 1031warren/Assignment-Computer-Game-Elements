@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="w7.css">
+    <script src="w7.js"></script>
+</head>
+<body>
+    <!---->
+    <form>
+        <!--First name-->
+        <label for="Uname">UserName:</label><br>
+        <input type="text" id="Uname" name="Uname"><br>
+
+        <!--Last name-->
+        <label for="Weapons">Weapons:</label><br>
+        <input type="text" id="Weapons" name="Weapons"><br>
+
+        <!--Age-->
+        <label for="Health/Damage">Health/Damage:</label><br>
+        <input type="text" id="Health/Damage" name="Health/Damage"><br>
+
+        <!--Email-->
+        <label for="Points">Points:</label><br>
+        <input type="text" id="Points" name="Points"><br>
+
+        <!--The div will show any user what infromation is needed.-->
+        <button type="button" onclick="processForm();">Submit Form</button>
+    </form>
+
+    <div id="userInfo" style="display: none;"></div>
+       <h2>Please enter the fowarding information:</h2>
+    <div>
+
+        <!--User Name-->
+        <label for="Uname">UserName: </label><div id="Uname2"></div>
+        <!--Weapons-->
+        <label for="Weapons">Weapons: </label><div id="Weapons2"></div>
+        <!--Health/Damage-->
+        <label for="Health/Damage">Health/Damage: </label><div id="Health/Damage2"></div>
+        <!--Points-->
+        <label for="Points">Points: </label><div id="Points2"></div>
+</body>
+</html>
